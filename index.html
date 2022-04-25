@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <label for="navn">Navn:</label>
+        <input name="navn" type="text" required>
+        <br>
+        <label for="tlf">Tlf nummer (ikke påkrevd):</label>
+        <input name="tlf" type="tel">
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+    </form>
+    <img src="Cookie.png" id="cookie" onclick="bakeCookie()">
+    <!-- <button id="baker" type="button" onclick="hireBaker()">Hire baker</button> -->
+
+    <p id="cookie-text">Cookies: 0</p>
+
+    <h2 id="h2"></h2>
+<script src="script.js"></script>
+<script src="http://db.cookie/js/webapi.js"></script>
+</body>
+</html>
